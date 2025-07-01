@@ -8,7 +8,7 @@ import StepByStepSolution from "@/components/StepByStepSolution";
 
 export default function DerivativeCalculator() {
   const [expression, setExpression] = useState("");
-  const [variable, setVariable] = useState("x");
+  const [variable, _setVariable] = useState("x");
   const [steps, setSteps] = useState<string[]>([]);
 
   const calculateDerivative = () => {
