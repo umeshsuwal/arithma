@@ -16,11 +16,11 @@ export default function Home() {
       </motion.h1>
       
       <p className="text-center max-w-2xl mb-10 text-lg">
-        Arithma is your smart math toolkit. Instantly compute derivatives and integrals
-        with beautiful step-by-step explanations.
+        Arithma is your smart math toolkit. Instantly compute derivatives, integrals, 
+        and matrix operations with beautiful step-by-step explanations.
       </p>
 
-      <div className="grid grid-cols-1 md:grid-cols-2 gap-6 w-full max-w-4xl">
+      <div className="grid grid-cols-1 md:grid-cols-3 gap-6 w-full max-w-5xl">
         <Link href="/derivative" className="block">
           <motion.div
             whileHover={{ scale: 1.02 }}
@@ -41,6 +41,18 @@ export default function Home() {
             <h2 className="text-2xl font-semibold mb-2">Integral Calculator</h2>
             <p className="text-sm text-gray-600">
               Compute integrals with simplified explanations.
+            </p>
+          </motion.div>
+        </Link>
+
+        <Link href="/matrix" className="block">
+          <motion.div
+            whileHover={{ scale: 1.02 }}
+            className="p-8 rounded-3xl bg-white shadow-lg hover:shadow-xl border border-green-200 transition-transform hover:-translate-y-1"
+          >
+            <h2 className="text-2xl font-semibold mb-2">Matrix Calculator</h2>
+            <p className="text-sm text-gray-600">
+              Perform addition, subtraction, multiplication with step details.
             </p>
           </motion.div>
         </Link>
