@@ -4,9 +4,9 @@
   
 Arithma - Math Toolkit
 
-[![License](https://img.shields.io/github/license/umeshsuwalit/arithma)](https://github.com/umeshsuwalit/arithma/blob/main/LICENSE)
-[![Issues](https://img.shields.io/github/issues/umeshsuwalit/arithma)](https://github.com/umeshsuwalit/arithma/issues)
-[![Stars](https://img.shields.io/github/stars/umeshsuwalit/arithma)](https://github.com/umeshsuwalit/arithma/stargazers)
+[![License](https://img.shields.io/github/license/umeshsuwalit/arithma)](https://github.com/umeshsuwal/arithma/blob/main/LICENSE)
+[![Issues](https://img.shields.io/github/issues/umeshsuwalit/arithma)](https://github.com/umeshsuwal/arithma/issues)
+[![Stars](https://img.shields.io/github/stars/umeshsuwalit/arithma)](https://github.com/umeshsuwal/arithma/stargazers)
 
 **A web application for calculus operations - derivatives and integrals**
 
